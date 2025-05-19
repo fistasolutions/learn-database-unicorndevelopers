@@ -1,4 +1,4 @@
-# Generalization and Aggregation in ER Model
+# Generalization and Aggregation in ER Modeling: Building Hierarchies and Abstractions
 
 ## 🎯 Learning Outcomes
 By the end of this overview, you will understand:
@@ -19,22 +19,9 @@ The ER Model provides powerful capabilities for expressing database entities in 
 ## 🔄 Generalization
 
 ### What is Generalization?
-```mermaid
-graph TD
-    A[Generalization] --> B[Combining Entities]
-    A --> C[Common Properties]
-    A --> D[Hierarchical View]
-    B --> E[Similar Characteristics]
-    C --> F[Shared Attributes]
-    style A fill:#f9f,stroke:#333,stroke-width:2px
-```
-
-**Key Points:**
-- Combines multiple entities into one
-- Creates a more generalized view
-- Preserves common properties
-- Moves up the hierarchy
-- Example: Student → Person
+**Generalization** is the process of extracting shared characteristics from two or more classes (entities) and combining them into a generalized superclass.
+- **Analogy:** Grouping cats and dogs as "Mammals"
+- **Example:** Student and Teacher become Person
 
 ### Example
 ```mermaid
@@ -50,6 +37,13 @@ graph TD
 ## 📊 Specialization
 
 ### What is Specialization?
+**Specialization** is the reverse: creating new sub-entities from an existing entity based on distinguishing features.
+- **Analogy:** Splitting Person into Student and Teacher
+
+### Examples
+1. **Company Context:**
+   - Person → Employee
+   - Person → Employer
 ```mermaid
 graph TD
     A[Specialization] --> B[Dividing Entities]
