@@ -1,5 +1,5 @@
 # Database Management System (DBMS) Tutorial
-now create readme.md file with name of overivew for this content:
+Now create readme.md file with name of overivew for this content:
 ## 🎯 Learning Outcomes
 By the end of this tutorial, you will be able to:
 - Understand the fundamental concepts of Database Management Systems
